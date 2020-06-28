@@ -1,0 +1,29 @@
+{
+  "name": "olucia",
+  "version": "1.0.0",
+  "publisher": "SoraKatadzuma",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "license": "MIT",
+  "displayName": "Olucia",
+  "description": "A color theme based on Olucia from Eternal City.",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "eternal city",
+    "olucia",
+    "SoraKatadzuma"
+  ],
+  "preview": true,
+  "contributes": {
+    "themes": [
+      {
+        "label": "Olucia Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/olucia-color-theme.json"
+      }
+    ]
+  }
+}
